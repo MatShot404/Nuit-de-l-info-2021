@@ -1,0 +1,91 @@
+/*** Import fonts from fonts.css file ***/
+@import url(./fonts.css);
+
+/*** Import CSS variables ***/
+@import url(./partials/_variables2.css);
+
+/*** Navbar CSS ***/
+.logo{
+    width: 75px;
+    height: auto;
+}
+
+/*** Start navigation ***/
+
+.navbar{
+    padding: 1rem 20rem;
+}
+
+.navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.navbar-nav{
+    text-decoration-color: red;
+}
+
+a{
+    color: red;
+    font: normal 500 15px/2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    padding: 0.3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+.hr{
+    color:black;
+    margin: 1rem;
+}
+
+body{
+    background-color: white;
+}
+
+
+
+/*** End navigation ***/
+
+.site-main .site-banner .texte {
+    color: var(--title-color);
+}
+
+.doc{
+    border: solid black;
+    border-radius: 2.5rem;
+    text-align: center;
+}
+
+
+.flexbox{
+    display:flex;
+}
+
+.widget{
+    text-align: center;
+    margin-top: 5rem;
+    border: solid black;
+    border-radius: 6rem;;
+    background-image: url("../img/wallpaper-nuit-info.png");
+    background-position-x: center;
+}
+
+
+.texte-discord{
+    color: black;
+    margin: 2rem;
+}
+
+.widget-discord{
+    border-radius: 1.5rem;
+    opacity: 0.95;
+}

@@ -1,0 +1,26 @@
+.navbanner { 
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    max-width: 100%;
+}
+head{
+width: 100%;
+}
+html{
+    width: 80%;
+    margin-left: 10%;
+    background-image: url('../img/Fond-site.jpg');
+}
+body{
+    background: none;
+    border: solid;
+    border-color: sandybrown;
+    border-top: none
+
+}
+.centernav{
+    display: flex;
+    justify-content: center;
+}

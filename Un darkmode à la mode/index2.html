@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- Font awesome icons -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="./css/style2.css">
+
+    <!-- Darkmode JS -->
+    <script src="./js/darkmode.js"></script>
+
+    <title>Un darkmode à la mode</title>
+</head>
+
+<body>
+
+    <!--========================={ Start Header Area }=========================-->
+
+        <header class="header_area">
+            <div class="main-menu">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img class="logo" src="./img/logo-nuit-info.svg" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link text-primary" href="index.html">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-primary" href="https://www.nuitdelinfo.com/" target="_blank">A propos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-primary" href="https://www.norsys.fr/" target="_blank">Norsys</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-primary" href="https://discord.com/invite/JpXAz7A" target="_blank">Discord</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-primary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Nos projets
+                                    </a>
+                                    <ul class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item text-primary" href="#">Défi national 2021</a></li>
+                                        <li><hr class="dropdown-divider text-primary"></li>
+                                        <li><a class="dropdown-item text-primary" href="#">Meilleurs voeux 2.0</a></li>
+                                        <li><hr class="dropdown-divider text-primary"></li>
+                                        <li><a class="dropdown-item text-primary" href="index.html">Un darkmode à la mode</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+
+
+
+    <!--=========================={ End Header Area }==========================-->
+
+    <!--=========================={ Start Main Area }==========================-->
+    <main class="site-main">
+
+
+        <!--==========================={ Start Banner Area }===========================-->
+        <section class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h2 class="texte title-text text-uppercase">Bienvenue sur le site du challenge "Un darkmode à la mode" développé par l'équipe Les 7 nains faux (de l'info)</h2>
+                        <hr class="hr title-texte text-uppercase"></hr>
+                        <div class="flexbox">
+                            <h4 class="texte title-text text-uppercase">- Le site est en darkmode par défaut -</h4>
+                            <div class="d-flex flex-row flex-wrap">
+                                <a class="lien-btn" href="index.html"><button type="button" class="btn texte primary-button mr-4 text-uppercase bg-dark text-light border rounded-pill">Darkmode</button></a>
+                            </div>
+                        </div>
+                        <hr class="hr title-texte text-uppercase"></hr>
+                        <h4 class="texte title-text">Appuyez sur le <button type="button" class="btn texte primary-button mr-4 text-uppercase bg-dark text-light border rounded-pill" onclick="afficher_doc();" ondblclick="effacer_doc();">bouton</button>afin d'activer la doc intégrée au site <br> Appuyez 2 fois sur le même bouton afin de fermer la doc</h4>
+                        <hr class="hr title-texte text-uppercase"></hr>
+                        <div class="doc">
+                            <h4 id="doc" class="texte title-text"></h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <img src="./img/banner-nuit-info.png" alt="banner-img" class="img-fluid">
+                        <div class="widget">
+                            <h4 class="texte-discord">Le serveur discord du lycée Algoud Laffemas Valence</h4>
+                            <div>
+                                <iframe class="widget-discord" src="https://discord.com/widget?id=912639500541394955&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--============================{ End Banner Area }============================-->
+
+
+    </main>
+    <!--==========================={ End Main Area }===========================-->
+
+    
+    <!-- Jquery js file -->
+    <script src="./js/jquery.3.6.0.js"></script>
+
+    <!-- Bootstrap JS file -->
+    <script src="./js/bootstrap.min.js"></script>
+
+</body>
+</html>
